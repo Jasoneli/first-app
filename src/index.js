@@ -4,12 +4,12 @@ import ReactDOM from "react-dom";
 
 
 const App = ()=> {
-  const buttonText = 'hello baby'
+  const buttonText = {text:'sub'}
   return (
     <div>
       <label for="name" className="label"> Enter E-mail</label>
       <input id="name" type="text"/>
-      <button style={{backgroundColor: 'green', color:'white'}}>{ buttonText}</button>
+      <button style={{backgroundColor: 'green', color:'white'}}>{ buttonText.text}</button>
     </div>)
 }
 
